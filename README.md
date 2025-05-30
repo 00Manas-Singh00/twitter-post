@@ -41,7 +41,7 @@ This project is a full-stack web application that allows users to authenticate w
 
 1. **Clone the repository and navigate to the backend directory:**
    ```sh
-   git clone [<repo-url>](https://github.com/00Manas-Singh00/twitter-post.git)
+   git clone https://github.com/00Manas-Singh00/twitter-post.git
    cd twitter-post/backend
    ```
 2. **Create a virtual environment and activate it:**
