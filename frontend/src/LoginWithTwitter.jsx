@@ -1,7 +1,7 @@
 import React from 'react';
 import { generatePKCECodes } from './pkce';
 
-const CLIENT_ID = 'NFBOU08xNmZuMkFkQlBKSjhJWmM6MTpjaQ'; 
+const CLIENT_ID = 'enter_your_twitter_client_id_here'; 
 const REDIRECT_URI = 'http://localhost:5173/callback';
 const SCOPE = 'tweet.read users.read offline.access tweet.write'; 
 
