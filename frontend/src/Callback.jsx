@@ -18,7 +18,9 @@ function Callback() {
       return;
     }
 
-    fetch('http://localhost:8000/api/auth/twitter/oauth2/token/', {
+    const backendUrl = process.env.REACT_APP_BACKEND_URL;
+
+    fetch(`${backendUrl}/api/auth/twitter/oauth2/token/`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
